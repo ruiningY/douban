@@ -1,0 +1,76 @@
+.searchs {
+    .search_header {
+        border-bottom: 1px solid #f3f3f3;
+        padding: 15px 0.18rem 0.15rem 15px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            color: #42bd56;
+            font-size: 16px;
+            padding-top: 5px;
+        }
+        form input {
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            border: 1px solid #f3f3f3;
+            background-size: 17.33333px;
+            border-radius: 3px;
+            width: 2.97rem;
+            height: 31px;
+            font-size: 14px;
+            outline: none;
+            background: #eee;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 25px;
+        overflow: hidden;
+        display: -webkit-box;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #f3f3f3;
+        li {
+            width: 33%;
+            div a {
+                display: block;
+                text-align: center;
+                margin-bottom: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                strong {
+                    display: block;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: rgb(35, 132, 232);
+                }
+                span {
+                    display: block;
+                    color: #999;
+                    height: 17px;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    .navBottom {
+        .nav-item {
+            a {
+                text-align: center;
+                text-decoration: none;
+                font-size: 15px;
+                color: #42bd56;
+                width: 49%;
+                display: block;
+                float: left;
+                border-bottom: 1px solid #f3f3f3;
+                padding: 13px 0;
+                border-right: 1px solid #f3f3f3;
+            }
+        }
+    }
+}

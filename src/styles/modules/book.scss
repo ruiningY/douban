@@ -1,0 +1,247 @@
+.book {
+    .movieHeader {
+        height: 47px;
+        ul {
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            background: #fff;
+            position: fixed;
+            height: 47px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            border-bottom: 1px solid #ccc;
+            li {
+                .header_movie {
+                    color: #2384E8;
+                }
+                .header_book {
+                    color: #9F7860;
+                }
+                .header_spread {
+                    color: #E4A813;
+                }
+                .header_group {
+                    color: #2AB8CC;
+                }
+                &.active {
+                    color: $base-color;
+                }
+                a {
+                    font-size: 16px;
+                }
+                .login {
+                    display: inline-block;
+                    width: 46px;
+                    height: 22px;
+                }
+                .search1 {
+                    display: inline-block;
+                    width: 26px;
+                    height: 20px;
+                    padding-top: 7px;
+                }
+            }
+        }
+    }
+    .Booksection,
+    .Booksection1 {
+        header {
+            padding: 15px;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+            .header-top {
+                padding-top: 47px;
+            }
+            h2 {
+                display: inline-block;
+                min-width: 4em;
+                margin-bottom: 0;
+                color: #111;
+                font-size: 0.16rem;
+                font-style: normal;
+            }
+            a {
+                font-size: 14px;
+                line-height: 24px;
+                color: #42bd56;
+            }
+        }
+        .swiper-slide {        
+           
+            width: 100px;
+            padding-left: 15px;
+            padding-right: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            .banner_img {
+                width: 100px;
+                height: 142px;
+            }
+            .book_title {
+                color: #111;
+                font-size: 14px;
+                text-align: center;
+                padding: 5px 0;
+            }
+            span {
+                padding-right: 20px;
+                color: #aaa;
+                font-size: 12px;
+            }
+        }
+    }
+    .interests {
+        overflow: hidden;
+        header {
+            h2 {
+                font-size: 18px;
+                padding-left: 15px;
+                padding-top: 15px;
+                color: #111;
+                padding-bottom: 10px;
+            }
+        }
+        .swiper-container {
+            ul {
+                li {
+                    margin: 0 0 8px 8px;
+                    font-size: 16px;
+                    float: left;
+                    vertical-align: middle;
+                    height: 50px;
+                    width: 300px;
+                    text-align: center;
+                    a {
+                        height: 50px;
+                        line-height: 50px;
+                        width: 300px;
+                        border-radius: 10px;
+                        border: 1px solid #FFC46C;
+                        display: block;
+                        color: #FFC46C;
+                    }
+                }
+            }
+        }
+    }
+    .sectionContent {
+        header {
+            h2 {
+                font-size: 18px;
+                padding-left: 15px;
+                padding-top: 15px;
+                color: #111;
+                padding-bottom: 20px;
+            }
+        }
+        .contents {
+            padding-left: 16px;
+            li {
+                padding-right: 20px;
+                float: left;
+                border: 1px solid #ccc;
+                border-right: solid 1px #eee;
+                border-left: none;
+                a {
+                    line-height: 42px;
+                    width: 1.4rem;
+                    height: 42px;
+                    display: inline-block;
+                    color: #51C651;
+                    margin-left: 10px;
+                    font-size: 15px;
+                    span {
+                        color: #ccc;
+                        float: right;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .content-list {
+                border-right: none;
+            }
+        }
+    }
+    .downd-app {
+        padding: 0 0 20px 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 15px;
+        .info {
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: left;
+            font-size: 14px;
+            padding-bottom: 20px;
+            color: #111;
+            width: 170px;
+            .appimg {
+                width: 48px;
+                height: 48px;
+                float: left;
+            }
+            div {
+                float: left;
+                padding-left: 10px;
+                strong {
+                    font-size: 24px;
+                }
+            }
+        }
+        a {
+            color: #51C651;
+        }
+    }
+    .movebanner {
+        height: 100px;
+    }
+    .typicalBook {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.15rem;
+        .cover {
+            width: 100px;
+            height: 142px;
+        }
+        .content {
+            width: 2.25rem;
+            margin-bottom: 0.8rem;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                .name {
+                    font-size: 19px;
+                    color: #494949;
+                    margin-right: 40px;
+                    max-width: 100%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    word-wrap: normal;
+                }
+                .price {
+                    color: #E76648;
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: bold;
+                }
+            }
+            .infoWithoutReviewer {
+                font-size: 13px;
+                font-weight: 300;
+                margin-top: 0.1rem;
+                color: #9B9B9B;
+            }
+        }
+    }
+}

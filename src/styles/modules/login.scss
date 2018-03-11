@@ -1,0 +1,86 @@
+.login{
+    
+    margin:10px auto;
+    h2{
+        a{
+             color: #42bd56;
+            color: #42bd56;
+            font-size: 15px;
+            font-weight: normal;
+            position: absolute;
+            left: 18px;
+            top: 9px;
+        }
+            background: #fff;
+            height: 45px;
+            border-bottom: 1px solid #eee;
+            padding: 0 18px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 45px; 
+    }
+    .login_sbmit{
+        padding:15px;
+         form{
+        
+         input{
+           border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+       
+            -webkit-appearance: none;
+        appearance: none;
+        display: inline-block;
+        height: 44px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0 8px;
+        background: #fff;
+        border: 1px solid #ccc;
+       margin-top:5px;
+        
+        width: 100%;
+        line-height: 32px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+            }
+            button{
+                margin-top:20px;
+                 cursor: pointer;
+                font-size: 17px;
+                text-align: center;
+                width: 100%;
+                padding: 10px 26px;
+                color: #ffffff;
+                background: #17AA52;
+                border: 1px solid #17AA52;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+            }
+        }
+    }
+   
+   
+    .item_pasd{
+        .other_way{
+                font-size: 15px;
+            margin-top: 15px;
+            color: #aaa;
+            text-align: center;
+        }
+        .download{
+                margin-top: 40px;
+            text-align: center;
+            font-size: 15px;
+            color: #42bd56;
+            a{
+                margin-right:20px;
+                 
+                font-size: 15px;
+                color: #42bd56;
+            }
+        }
+    }
+}

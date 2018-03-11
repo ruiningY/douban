@@ -1,0 +1,182 @@
+.index{
+    .movieHeader{       
+           height:47px;       
+        ul {
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            background: #fff;
+            position: fixed;
+            height:47px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right:15px;
+            padding-left:15px;
+            border-bottom: 1px solid #ccc;
+            
+           li{
+                .header_movie{
+                   color:#2384E8;
+               }
+               .header_book{
+                   color:#9F7860;
+                   
+               }
+               .header_spread{
+                  color:#E4A813;
+                }
+                .header_group{
+                   color:#2AB8CC;
+                }
+                a{
+                    
+                    font-size:16px;
+                   
+                
+                }
+                 .login{
+                        display: inline-block;
+                        width:46px;
+                        height:22px;
+                    }
+                    .search1{
+                        display: inline-block;
+                        width:26px;
+                        height:20px;
+                        padding-top:7px;
+                        
+                        
+                    }
+            } 
+        }
+        
+    }
+   
+    .sectionheader{
+        ul{  
+            overflow: hidden;
+            margin: 20px 0 0 0;
+            padding-top: 6px;
+        
+            li{
+                float: left;
+                width: 50%;
+                padding: 8px;
+                box-sizing: border-box;
+                font-size: 15px;
+                a{
+                    background-color: #f6f6f6;
+                    color: #494949;
+                    display: block;
+                    text-align: center;
+                    line-height: 20px;
+                    padding: 12px 0;
+                    border-radius: 2px;
+                    max-width: 100%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    word-wrap: normal;
+                }
+            }
+        }
+    }
+    .indexcontent{
+        .content-item{
+            display: block;
+            padding: 25px 18px 25px 0;
+            margin-left: 18px;
+            position: relative;
+            color: #494949;
+            border-bottom: 1px solid #E9E9E9;
+            div{
+                
+                h3{
+                    text-align: justify;
+                    font-size: 17px;
+                    font-weight: 500;
+                    line-height: 1.41;
+                    color: #494949;
+                    margin-bottom: 6px;
+                    width:180px;
+                    height:72px;
+                   
+                }
+                p{  
+                    padding-top:20px;
+                    overflow: hidden;
+                    text-align: justify;
+                    color: #aaa;
+                    font-size: 12px;
+                    line-height: 1.5;
+                    display: -webkit-box;
+                  
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                }
+                div{
+                   
+                    img{
+                            width: 25.6%;
+                            margin-left: 25px;
+                            height:72px;
+                            top:25px;
+                            position:absolute ;
+                            right:20px;
+                    }
+                }
+            }
+            .fromm{
+                font-size: 12px;
+                    color: #ccc;
+                    padding-top:10px;
+                    display: flex;
+                    justify-content: space-between;
+                
+            }
+           
+        }
+    }
+    
+        
+    .downd-app{
+        padding: 0 0 20px 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 15px;
+        .info{
+             margin: 0 auto ;
+            overflow: hidden;
+            text-align: left;
+            font-size: 14px;
+           padding-bottom:20px;
+            color: #111;
+            width:170px;
+            .appimg{
+               width:48px;
+               height:48px;
+                float:left;
+            }
+            div{
+                float:left;
+                padding-left:10px;
+                
+                strong{
+                    font-size: 24px;
+                } 
+             }               
+        }
+        a{          
+         color:#51C651;           
+        }
+    }
+    .movebanner{
+        height:100px;
+        
+    }
+    
+}

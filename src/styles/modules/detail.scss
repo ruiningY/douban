@@ -1,0 +1,222 @@
+.detail{
+    .movieHeader{       
+           height:47px;       
+        ul {
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            background: #fff;
+            position: fixed;
+            height:47px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right:15px;
+            padding-left:15px;
+            border-bottom: 1px solid #ccc;
+            
+           li{
+                .header_movie{
+                   color:#2384E8;
+               }
+               .header_book{
+                   color:#9F7860;
+                   
+               }
+               .header_spread{
+                  color:#E4A813;
+                }
+                .header_group{
+                   color:#2AB8CC;
+                }
+                a{
+                    
+                    font-size:16px;
+                   
+                
+                }
+                 .login{
+                        display: inline-block;
+                        width:46px;
+                        height:22px;
+                    }
+                    .search1{
+                        display: inline-block;
+                        width:26px;
+                        height:20px;
+                        padding-top:7px;
+                        
+                        
+                    }
+            } 
+        }
+        
+    }
+    h1{
+        padding-top: 10px;
+        padding-left:15px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .new_content{
+            padding:10px;
+       
+            .banner_img{
+                width:78px;
+                height:113px;
+            }
+    }
+        
+    }
+   .open_receive{
+         position: relative;
+        .receive_bg{
+           
+            img{
+                width:320px;height:69px;
+            }
+        }
+        .receive_intent{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            padding-left:15px;
+            padding-right: 15px;
+            top:20px;
+            .redio_title{
+                font-size: 14px;
+                font-weight: 550;
+                line-height: 28px;
+                color: #2CA532; 
+                
+            }
+            .button_innner{             
+                padding-left: 30px;
+                display: flex;
+                justify-content: space-between;
+                
+                .downn{
+                    color: #fff;
+                    border: 1px solid #42bd56;
+                    background: #42bd56;
+                    width:82px;
+                    height:28px;
+                    border-radius: 3px;
+                    text-align: center;
+                    line-height: 28px;
+                    font-weight: bolder;
+                }
+                .openn{
+                    color: #42bd56;
+                    border: 1px solid #42bd56;
+                    width:56px;
+                    height:28px;
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 28px;
+                    left:10px;
+                    position: relative;
+                    border-radius: 3px;
+                }
+            }
+          
+            
+        }
+    }
+    .contents{
+         .detail_content{
+             section{
+                 h1{
+                    margin: 30px 0 5px;
+                    font-size: 24px;
+                    line-height: 32px;
+                 }
+                 .from{
+                         color: #494949;;
+                        font-size: 15px;
+                        line-height: normal;
+                        padding-left:15px;
+                 }
+             }
+             section{
+                 .content{
+                      .content_title{
+                              position: relative;
+                            margin: 18px 0;
+                            padding: 0 0 0 24px;
+                            color: #7b7b7b;
+                            font-size: inherit;
+                            line-height: inherit;
+                            font-size: 22px; 
+                            line-height: 23px; 
+                            
+                      }
+                     .content_img{
+                          margin: 30px 0;
+                        text-align: center;
+                        img{
+                             display: block;
+                        width: 284px;
+                        margin: auto;
+                        }
+                        
+
+                     }
+                     .desc{
+                        font-size: inherit;
+                        line-height: inherit;
+                        word-wrap: inherit;
+                        white-space: pre-wrap;
+                        word-break: break-all;
+                        font-size: 15px;
+                        color: #494949;
+                        padding-left:15px;
+                        padding-right:15px;
+                     }
+                 }
+             }
+         }
+     }   
+    .downd-app{
+        padding: 0 0 20px 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 15px;
+        .info{
+             margin: 0 auto ;
+            overflow: hidden;
+            text-align: left;
+            font-size: 14px;
+           padding-bottom:20px;
+            color: #111;
+            width:170px;
+            .appimg{
+               width:48px;
+               height:48px;
+                float:left;
+            }
+            div{
+                float:left;
+                padding-left:10px;
+                
+                strong{
+                    font-size: 24px;
+                } 
+             }               
+        }
+        a{          
+         color:#51C651;           
+        }
+    }
+    .movebanner{
+        height:100px;
+        
+    }
+    
+}

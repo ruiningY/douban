@@ -1,0 +1,134 @@
+.group {
+    .movieHeader {
+        height: 47px;
+        ul {
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+            background: #fff;
+            position: fixed;
+            height: 47px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            border-bottom: 1px solid #ccc;
+            li {
+                .header_movie {
+                    color: #2384E8;
+                }
+                .header_book {
+                    color: #9F7860;
+                }
+                .header_spread {
+                    color: #E4A813;
+                }
+                .header_group {
+                    color: #2AB8CC;
+                }
+                &.active {
+                    color: $base-color;
+                }
+                a {
+                    font-size: 16px;
+                }
+                .login {
+                    display: inline-block;
+                    width: 46px;
+                    height: 22px;
+                }
+                .search1 {
+                    display: inline-block;
+                    width: 26px;
+                    height: 20px;
+                    padding-top: 7px;
+                }
+            }
+        }
+    }
+    .downd-app {
+        padding: 0 0 20px 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 15px;
+        .info {
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: left;
+            font-size: 14px;
+            padding-bottom: 20px;
+            color: #111;
+            width: 170px;
+            .appimg {
+                width: 48px;
+                height: 48px;
+                float: left;
+            }
+            div {
+                float: left;
+                padding-left: 10px;
+                strong {
+                    font-size: 24px;
+                }
+            }
+        }
+        a {
+            color: #51C651;
+        }
+    }
+    .groupdetail {
+        section {
+            padding: 0 15px;
+            p {
+                display: inline-block;
+                margin-bottom: 0;
+                padding: 20px 0;
+                font-size: 18px;
+                color: #111;
+                padding-left: 0;
+            }
+            .group-meta {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 42px;
+                padding-top:10px;
+                .group-name {
+                    font-size: 18px;
+                    color: #000;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    text-align: left;
+                }
+                .group-member {
+                    color: #ccc;
+                }
+            }
+            .group-topic {
+                margin-top: 10px;
+                font-size: 15px;
+                color: #aaa;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #eee;
+            }
+            .more-group {
+                text-align: center;
+                font-size: 15px;
+                padding: 12px 0;
+                border-bottom: 1px solid #eee;
+                a {
+                    color: #42bd56;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
